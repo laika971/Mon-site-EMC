@@ -1,0 +1,106 @@
+/* Body et fond */
+body {
+  background-image: url("https://www.muse-motivation.fr/wp-content/uploads/2024/08/AdobeStock_600988966-scaled.jpeg");
+    margin: 0;
+    font-family: Georgia, serif;
+    background-color: #f4f4f4;
+    color: #111;
+}
+
+/* Header et barre de breaking news */
+header {
+    background-color: #b30000;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.breaking {
+    background-color: black;
+    color: red;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Container de l'article */
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 25px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+/* Titres et métadonnées */
+h1 {
+    color: #b30000;
+    margin-bottom: 10px;
+}
+
+.meta, .date {
+    color: gray;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+/* Article */
+.article img {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.article p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+/* Sources */
+.sources {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #555;
+}
+.sources a {
+    color: #b30000;
+    text-decoration: none;
+}
+
+.sources a:hover {
+    text-decoration: underline;
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    font-size: 13px;
+    color: black;
+    margin: 30px 0 0 0;
+    background: #ddd;
+    padding: 15px;
+}
+
+/* Classes spécifiques */
+.image_2 {
+    height: auto;
+    overflow: visible;
+}
+
+/* Hero image */
+.hero-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+}
+.logo-img {
+    width: 150px;
